@@ -27,7 +27,6 @@ const Portfolio = () => {
                         <p>It's a warehouse where a lot of cloth are stored for sell</p>
                         <div class="card-actions justify-end">
                             <a href="https://warehouse-32ec4.web.app/" className='btn btn-primary'> Live View </a>
-                            {/* <a  class="btn btn-primary" >Buy Now</button> */}
                         </div>
                     </div>
                 </div>
