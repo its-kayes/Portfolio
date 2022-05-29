@@ -26,7 +26,7 @@ const Portfolio = () => {
                         <h2 class="card-title">Clothing Warehouse</h2>
                         <p>It's a warehouse where a lot of cloth are stored for sell</p>
                         <div class="card-actions justify-end">
-                            <a href="https://warehouse-32ec4.web.app/" className='btn btn-primary'> Live View </a>
+                            <a target='_blank' href="https://warehouse-32ec4.web.app/" className='btn btn-primary'> Live View </a>
                         </div>
                     </div>
                 </div>
@@ -37,7 +37,7 @@ const Portfolio = () => {
                         <h2 class="card-title">Bike Review</h2>
                         <p>It's a Bike Review Website based on a bike.</p>
                         <div class="card-actions justify-end">
-                            <a href="https://bike-review-react-route-kayes.netlify.app/" className='btn btn-primary'> Live View </a>
+                            <a target='_blank' href="https://bike-review-react-route-kayes.netlify.app/" className='btn btn-primary'> Live View </a>
                             {/* <a  class="btn btn-primary" >Buy Now</button> */}
                         </div>
                     </div>
@@ -49,7 +49,7 @@ const Portfolio = () => {
                         <h2 class="card-title">Royal Convention Center</h2>
                         <p> It's a Conventional Center for Wedding Arrangements </p>
                         <div class="card-actions justify-end">
-                            <a href="https://weading-by-kayes.netlify.app/" className='btn btn-primary'> Live View </a>
+                            <a target='_blank' href="https://weading-by-kayes.netlify.app/" className='btn btn-primary'> Live View </a>
                             {/* <a  class="btn btn-primary" >Buy Now</button> */}
                         </div>
                     </div>
@@ -91,10 +91,10 @@ const Portfolio = () => {
 
             <dir className=''>
                 <div className='flex justify-evenly py-20'>
-                    <a href="nkedin.com/in/emrul-kayes-b61895237/"> <i class="fa-brands fa-linkedin text-8xl text-white"> </i></a>
-                    <a href="https://github.com/its-kayes"> <i class="fa-brands fa-github text-8xl text-white"> </i>  </a> 
-                    <a href="https://www.facebook.com/kayes0000000/"> <i class="fa-brands fa-facebook text-8xl text-white"></i> </a>
-                    
+                    <a target='_blank ' href="https://www.linkedin.com/in/its-kayes/"> <i class="fa-brands fa-linkedin text-8xl text-white"> </i></a>
+                    <a target='_blank' href="https://github.com/its-kayes"> <i class="fa-brands fa-github text-8xl text-white"> </i>  </a>
+                    <a target='_blank' href="https://www.facebook.com/kayes0000000/"> <i class="fa-brands fa-facebook text-8xl text-white"></i> </a>
+
                     {/* <i class="fa-brands fa-linkedin text-8xl"> </i>
                     <i class="fa-brands fa-facebook text-8xl "> </i> */}
                 </div>
