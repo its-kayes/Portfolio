@@ -1,16 +1,17 @@
 import React from 'react';
 import Banner from '../Parts/Banner';
+import ContactMe from '../Parts/ContactMe';
 import Project from '../Parts/Project';
 
 const Portfolio = () => {
     return (
-        <div className=' bg-black '>
+        <div className='bg-black'>
         
             <Banner> </Banner>
 
             <Project> </Project>
 
-            
+            <ContactMe> </ContactMe>
 
             <div className='text-white flex justify-around my-8'>
                 <div className=' '>
