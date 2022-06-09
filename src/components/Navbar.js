@@ -27,6 +27,7 @@ const Navbar = () => {
 
                             <li> <Link to='/contact'> Contact Me  </Link> </li>
                             <li> <Link to='/activity'> Activity </Link> </li>
+                            <li> <Link to='/about'> About Me </Link> </li>
                         </ul>
                     </div>
 
@@ -52,6 +53,7 @@ const Navbar = () => {
                         {/* <li><a>Contact Me</a></li> */}
                         <li> <Link to='/contact'> Contact Me  </Link> </li>
                         <li> <Link to='/activity'> Activity </Link> </li>
+                        <li> <Link to='/about'> About Me </Link> </li>
                         {/* <li><a>Activity</a></li> */}
                     </ul>
                 </div>
@@ -59,7 +61,7 @@ const Navbar = () => {
                     <a href="resume.pdf" className='btn' download> Download Resume</a>
                 </div>
             </div>
-            <p className='text-2xl text-red-500 font-bold text-center'> Under Development </p>
+            {/* <p className='text-2xl text-red-500 font-bold text-center'> Under Development </p> */}
         </div>
     );
 };

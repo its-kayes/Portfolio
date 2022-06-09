@@ -2,8 +2,8 @@ import React from 'react';
 
 const Project = () => {
     return (
-        <div>
-            <div className='flex justify-center '>
+        <div className=' bg-dark'>
+            <div className='flex justify-center'>
                 <div class="card w-2/5 bg-base-100 shadow-xl image-full m-2">
                     <figure><img src="https://i.ibb.co/HDnH5FR/warehouse-mobile.webp" alt="Shoes" /></figure>
                     <div class="card-body ">
