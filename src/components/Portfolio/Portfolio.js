@@ -1,5 +1,6 @@
 import React from 'react';
 import Banner from '../Parts/Banner';
+import Project from '../Parts/Project';
 
 const Portfolio = () => {
     return (
@@ -7,43 +8,9 @@ const Portfolio = () => {
         
             <Banner> </Banner>
 
+            <Project> </Project>
 
-            <div className='flex justify-around py-16 '>
-                <div class="card w-96 bg-base-100 shadow-xl image-full ">
-                    <figure><img src="https://i.ibb.co/HDnH5FR/warehouse-mobile.webp" alt="Shoes" /></figure>
-                    <div class="card-body ">
-                        <h2 class="card-title">Clothing Warehouse</h2>
-                        <p>It's a warehouse where a lot of cloth are stored for sell</p>
-                        <div class="card-actions justify-end">
-                            <a target='_blank' href="https://warehouse-32ec4.web.app/" className='btn btn-primary'> Live View </a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="card w-96 bg-base-100 shadow-xl image-full">
-                    <figure><img src="https://i.ibb.co/fXF1hg0/Screenshot-174.png" className='p-3' alt="Shoes" /></figure>
-                    <div class="card-body">
-                        <h2 class="card-title">Bike Review</h2>
-                        <p>It's a Bike Review Website based on a bike.</p>
-                        <div class="card-actions justify-end">
-                            <a target='_blank' href="https://bike-review-react-route-kayes.netlify.app/" className='btn btn-primary'> Live View </a>
-                            {/* <a  class="btn btn-primary" >Buy Now</button> */}
-                        </div>
-                    </div>
-                </div>
-
-                <div class="card w-96 bg-base-100 shadow-xl image-full">
-                    <figure><img src="https://i.ibb.co/Qm4pDtR/Screenshot-175.png" alt="Shoes" /></figure>
-                    <div class="card-body">
-                        <h2 class="card-title">Royal Convention Center</h2>
-                        <p> It's a Conventional Center for Wedding Arrangements </p>
-                        <div class="card-actions justify-end">
-                            <a target='_blank' href="https://weading-by-kayes.netlify.app/" className='btn btn-primary'> Live View </a>
-                            {/* <a  class="btn btn-primary" >Buy Now</button> */}
-                        </div>
-                    </div>
-                </div>
-            </div>
+            
 
             <div className='text-white flex justify-around my-8'>
                 <div className=' '>

@@ -9,7 +9,7 @@ const Banner = () => {
             <div className='flex justify-between items-center text-white p-20'>
                 <div className=''>
                     <div>
-                        <h1 className='text-7xl font-bold font-mono'> Emrul Kayes </h1>
+                        <h1 className='text-7xl font-bold font-mono text-orange-300'> Emrul Kayes </h1>
                         <p className='text-xl font-bold '> Web Developer </p>
                         <p className='text-lg'> kayes.ek8@gmail.com </p>
                         <p className='py-5'> I am a web developer. In the last few months I have completed more than 10+ websites project.
