@@ -1,33 +1,47 @@
 [
     {
-        "name": "favicon.ico",
-        "frontImg": "image/x-icon",
+        "name": "Clothing Warehouse",
+        "frontImg": "https://i.ibb.co/HDnH5FR/warehouse-mobile.webp",
+        "text": "It's a warehouse where a lot of cloth are stored for sell",
         "pA": "64x64 32x32 24x24 16x16",
         "pB": "Point 2",
         "pC": "Point 3",
-        "Live": "Live Link",
-        "Client": "Code 1",
-        "Server": "Code 2"
+        "Live": "https://warehouse-32ec4.web.app/",
+        "Client": "https://github.com/its-kayes/clothing-warehouse-client",
+        "Server": "https://github.com/its-kayes/computer-parts-manufacturer-server"
         
     },
     {
-        "name": "logo192.png",
-        "frontImg": "image/png",
+        "name": "Computer Parts Manufacturer",
+        "frontImg": "https://i.ibb.co/n1cZPxN/Screenshot-10.png",
+        "text": " It’s a parts manufacturer seller website. Where a lot of parts are available for wholesale sales.",
         "pA": "192x192",
         "pB": "Point 2",
         "pC": "Point 3",
-        "Live": "Live Link",
-        "Client": "Code 1",
-        "Server": "Code 2"
+        "Live": "https://parts-manufacturer-23ecb.web.app/",
+        "Client": "https://github.com/its-kayes/computer-parts-manufacturer-client",
+        "Server": "https://github.com/its-kayes/computer-parts-manufacturer-server"
     },
     {
-        "name": "logo512.png",
-        "frontImg": "image/png",
+        "name": "Bike Review",
+        "frontImg": "https://i.ibb.co/fXF1hg0/Screenshot-174.png",
+        "text": "It's a Bike Review Website based on a bike.",
         "pA": "512x512",
         "pB": "Point 2",
         "pC": "Point 3",
-        "Live": "Live Link",
-        "Client": "Code 1",
+        "Live": "https://bike-review-react-route-kayes.netlify.app/",
+        "Client": "https://github.com/its-kayes/bike-review",
+        "Server": "Code 2"
+    },
+    {
+        "name": "Royal Convention Center",
+        "frontImg": "https://i.ibb.co/Qm4pDtR/Screenshot-175.png",
+        "text": "It's a Conventional Center for Wedding Arrangements",
+        "pA": "512x512",
+        "pB": "Point 2",
+        "pC": "Point 3",
+        "Live": "https://weading-by-kayes.netlify.app/",
+        "Client": "https://github.com/its-kayes/Royal-Convention-Center",
         "Server": "Code 2"
     }
 ]
