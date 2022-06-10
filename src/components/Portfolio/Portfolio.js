@@ -12,7 +12,6 @@ const Portfolio = () => {
         
             <Banner> </Banner>
 
-            <Project> </Project>
 
             {/* <ContactMe> </ContactMe> */}
 
@@ -21,6 +20,8 @@ const Portfolio = () => {
             {/* <Cards> </Cards> */}
 
             <SocialLinks>  </SocialLinks>
+            
+            <Project> </Project>
 
             
         </div>

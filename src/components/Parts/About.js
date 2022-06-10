@@ -4,6 +4,7 @@ import Progress from './Progress';
 const About = () => {
     return (
         <div className='bg-dark'>
+            <h1 className='text-red-400 text-3xl text-center py-10'> <i class="fa-solid fa-xmark px-2"></i> Under Development <i class="fa-solid fa-xmark px-2"></i> </h1>
             <div className='text-white flex justify-around  '>
                 <div className=' '>
                     <h1 className='text-3xl font-mono font-bold my-2'> List of Technology that I know </h1>
