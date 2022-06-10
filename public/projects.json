@@ -1,5 +1,6 @@
 [
     {
+        "id": 1,
         "name": "Clothing Warehouse",
         "frontImg": "https://i.ibb.co/HDnH5FR/warehouse-mobile.webp",
         "text": "It's a warehouse where a lot of cloth are stored for sell",
@@ -12,6 +13,7 @@
         
     },
     {
+        "id": 2,
         "name": "Computer Parts Manufacturer",
         "frontImg": "https://i.ibb.co/n1cZPxN/Screenshot-10.png",
         "text": " It’s a parts manufacturer seller website. Where a lot of parts are available for wholesale sales.",
@@ -23,6 +25,7 @@
         "Server": "https://github.com/its-kayes/computer-parts-manufacturer-server"
     },
     {
+        "id": 3,
         "name": "Bike Review",
         "frontImg": "https://i.ibb.co/fXF1hg0/Screenshot-174.png",
         "text": "It's a Bike Review Website based on a bike.",
@@ -34,6 +37,7 @@
         "Server": "Code 2"
     },
     {
+        "id": 4,
         "name": "Royal Convention Center",
         "frontImg": "https://i.ibb.co/Qm4pDtR/Screenshot-175.png",
         "text": "It's a Conventional Center for Wedding Arrangements",
