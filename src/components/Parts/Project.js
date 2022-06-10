@@ -57,6 +57,18 @@ const Project = () => {
                     </div>
                 </div>
             </div>
+
+
+            {/* <div class="card lg:card-side bg-base-100 shadow-xl">
+                <figure><img className='w-2/5 h-2/5' src="https://i.ibb.co/Qm4pDtR/Screenshot-175.png" alt="Album" /></figure>
+                <div class="card-body">
+                    <h2 class="card-title text-yellow-200">Royal Convention Center</h2>
+                    <p> It's a Conventional Center for Wedding Arrangements </p>
+                    <div class="card-actions justify-end">
+                        <a target='_blank' href="https://weading-by-kayes.netlify.app/" className='btn btn-primary'> Live View </a>
+                    </div>
+                </div>
+            </div> */}
         </div>
     );
 };

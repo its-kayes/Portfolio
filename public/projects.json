@@ -1,0 +1,33 @@
+[
+    {
+        "name": "favicon.ico",
+        "frontImg": "image/x-icon",
+        "pA": "64x64 32x32 24x24 16x16",
+        "pB": "Point 2",
+        "pC": "Point 3",
+        "Live": "Live Link",
+        "Client": "Code 1",
+        "Server": "Code 2"
+        
+    },
+    {
+        "name": "logo192.png",
+        "frontImg": "image/png",
+        "pA": "192x192",
+        "pB": "Point 2",
+        "pC": "Point 3",
+        "Live": "Live Link",
+        "Client": "Code 1",
+        "Server": "Code 2"
+    },
+    {
+        "name": "logo512.png",
+        "frontImg": "image/png",
+        "pA": "512x512",
+        "pB": "Point 2",
+        "pC": "Point 3",
+        "Live": "Live Link",
+        "Client": "Code 1",
+        "Server": "Code 2"
+    }
+]

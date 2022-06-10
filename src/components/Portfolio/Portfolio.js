@@ -1,8 +1,10 @@
 import React from 'react';
 import Banner from '../Parts/Banner';
+import Cards from '../Parts/Cards';
 import ContactMe from '../Parts/ContactMe';
 import Progress from '../Parts/Progress';
 import Project from '../Parts/Project';
+import SocialLinks from '../Parts/SocialLinks';
 
 const Portfolio = () => {
     return (
@@ -16,18 +18,11 @@ const Portfolio = () => {
 
             {/* <Progress> </Progress> */}
 
+            <Cards> </Cards>
+
+            {/* <SocialLinks>  </SocialLinks> */}
+
             
-
-            <dir className=''>
-                <div className='flex justify-evenly py-20'>
-                    <a className='hover:blur-sm' target='_blank ' href="https://www.linkedin.com/in/its-kayes/"> <i class="fa-brands fa-linkedin text-8xl text-white"> </i></a>
-                    <a className='hover:blur-sm' target='_blank' href="https://github.com/its-kayes"> <i class="fa-brands fa-github text-8xl text-white"> </i>  </a>
-                    <a className='hover:blur-sm' target='_blank' href="https://www.facebook.com/kayes0000000/"> <i class="fa-brands fa-facebook text-8xl text-white"></i> </a>
-
-                    {/* <i class="fa-brands fa-linkedin text-8xl"> </i>
-                    <i class="fa-brands fa-facebook text-8xl "> </i> */}
-                </div>
-            </dir>
         </div>
     );
 };
