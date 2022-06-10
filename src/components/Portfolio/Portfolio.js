@@ -12,15 +12,15 @@ const Portfolio = () => {
         
             <Banner> </Banner>
 
-            {/* <Project> </Project>
+            <Project> </Project>
 
-            <ContactMe> </ContactMe> */}
+            {/* <ContactMe> </ContactMe> */}
 
             {/* <Progress> </Progress> */}
 
-            <Cards> </Cards>
+            {/* <Cards> </Cards> */}
 
-            {/* <SocialLinks>  </SocialLinks> */}
+            <SocialLinks>  </SocialLinks>
 
             
         </div>
