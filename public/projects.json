@@ -1,51 +1,64 @@
 [
     {
-        "id": 1,
         "name": "Clothing Warehouse",
         "frontImg": "https://i.ibb.co/HDnH5FR/warehouse-mobile.webp",
         "text": "It's a warehouse where a lot of cloth are stored for sell",
-        "pA": "64x64 32x32 24x24 16x16",
-        "pB": "Point 2",
-        "pC": "Point 3",
+        "pA": "Used React-Router to turn the application into Single Page Application.",
+        "pB": "Used Firebase for Authentication and Hosting, Heroku as Backend data hosting.",
+        "pC": "Used React firebase hook for implement Email, Google, GitHub Login. Password Verification, Reset Password are added.",
+        "moreDetails": " https://www.linkedin.com/posts/its-kayes_react-tailwindcss-firebase-activity-6936250100801232896-vO2w?utm_source=linkedin_share&utm_medium=member_desktop_web ",
         "Live": "https://warehouse-32ec4.web.app/",
         "Client": "https://github.com/its-kayes/clothing-warehouse-client",
         "Server": "https://github.com/its-kayes/computer-parts-manufacturer-server"
         
     },
     {
-        "id": 2,
         "name": "Computer Parts Manufacturer",
         "frontImg": "https://i.ibb.co/n1cZPxN/Screenshot-10.png",
         "text": " It’s a parts manufacturer seller website. Where a lot of parts are available for wholesale sales.",
-        "pA": "192x192",
-        "pB": "Point 2",
-        "pC": "Point 3",
+        "pA": "Used firebase hook for Authentication. Also used React-Router, React Query, Nested Routes, Axios for make website more user friendly.",
+        "pB": "Stripe Payment Method, jwt to verify security and two different roles (admin, client) are implemented.",
+        "pC": " Data are stored on MongoDB using crud operations with help of Express JS.",
+        "moreDetails": " https://www.linkedin.com/posts/its-kayes_react-css-tailwindcss-activity-6941343620373319680-qiAx?utm_source=linkedin_share&utm_medium=member_desktop_web ",
         "Live": "https://parts-manufacturer-23ecb.web.app/",
         "Client": "https://github.com/its-kayes/computer-parts-manufacturer-client",
         "Server": "https://github.com/its-kayes/computer-parts-manufacturer-server"
     },
     {
-        "id": 3,
+        "name": "Wedding Photographer",
+        "frontImg": "https://i.ibb.co/SxHv1VS/Screenshot-23.png",
+        "text": "This is a wedding photographer's website and details of what services he provides.",
+        "pA": "Used Bootstrap as a CSS framework and Rechart for a graph view of services.",
+        "pB": "Used React Firebase hook for implement Email, Google, GitHub Login.",
+        "pC": "MongoDB for stored data and Express.js as a backend framework. Backend data are hosting on Heroku.",
+        "moreDetails": "  ",
+        "Live": "https://wedding-photographer-abrar.web.app/",
+        "Client": "https://github.com/its-kayes/wedding-photographer",
+        "Server": "Code 2"
+    },
+    {
         "name": "Bike Review",
         "frontImg": "https://i.ibb.co/fXF1hg0/Screenshot-174.png",
         "text": "It's a Bike Review Website based on a bike.",
-        "pA": "512x512",
-        "pB": "Point 2",
-        "pC": "Point 3",
+        "pA": " Use Bootstrap as a Components Library ",
+        "pB": " Graph View of Monthly sell, Investment Vs Revenue ",
+        "pC": " Show customer Review ",
+        "moreDetails": "  ",
         "Live": "https://bike-review-react-route-kayes.netlify.app/",
         "Client": "https://github.com/its-kayes/bike-review",
         "Server": "Code 2"
     },
     {
-        "id": 4,
         "name": "Royal Convention Center",
         "frontImg": "https://i.ibb.co/Qm4pDtR/Screenshot-175.png",
         "text": "It's a Conventional Center for Wedding Arrangements",
-        "pA": "512x512",
-        "pB": "Point 2",
-        "pC": "Point 3",
+        "pA": "Use Bootstrap to build Single Page Conventional Center",
+        "pB": "Use Bootstrap Toast, Accordion, Carousel",
+        "pC": "Design as User Suitable Beautiful Single Page Application",
+        "moreDetails": "  ",
         "Live": "https://weading-by-kayes.netlify.app/",
         "Client": "https://github.com/its-kayes/Royal-Convention-Center",
         "Server": "Code 2"
     }
+    
 ]

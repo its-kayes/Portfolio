@@ -1,17 +1,16 @@
 
 import React, { useEffect, useState } from 'react';
+import useProjects from '../../hook/useProjects';
+import Spinier from '../Shared/Spinier';
 
 const Projects = () => {
 
-    let [projects, setProjects] = useState();
-
-    useEffect(() => {
-        fetch('projects.json')
-            .then(res => res.json())
-            .then(data => setProjects(data))
+    let projects = useProjects();
+    if(!projects.length) {
+        return <Spinier> </Spinier>
     }
-        , [])
 
+  
     return (
 
         <div className='w-full py-10 bg-black'>
@@ -23,7 +22,7 @@ const Projects = () => {
             <div className=' w-4/5 xl:w-1170 mx-auto flex items-center justify-between h-4/5 lg:flex-row flex-col'>
 
                 <div className='grid grid-cols-1 lg:grid-cols-2 gap-10' >
-                    {projects?.map(project =>
+                    {projects.map(project =>
                         <div className='text-white animate__animated animate__fadeIn w-full p-6 border-2 border-sky-300 rounded-lg  '>
                             <div>
                                 <div>
@@ -38,9 +37,9 @@ const Projects = () => {
                                     <p className='font-light text-lg'> {"->"} {project.text}  </p>
                                     {/* <div class="divider bg-white"></div> */}
                                     <div className='border-b my-4 border-lynch opacity-30'>  </div>
-                                    <li> Point 1 </li>
-                                    <li> Point 2 </li>
-                                    <li> Point 3 </li>
+                                    <li> <i> {project.pA} </i> </li>
+                                    <li> <i> {project.pB} </i> </li>
+                                    <li> <i> {project.pC} </i> </li>
 
                                 </div>
 
