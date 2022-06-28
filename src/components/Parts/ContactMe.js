@@ -2,6 +2,7 @@ import { useForm } from 'react-hook-form';
 import emailjs from 'emailjs-com';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.min.css';
+import "@fontsource/amiri";
 
 const ContactMe = () => {
     const {
@@ -58,14 +59,15 @@ const ContactMe = () => {
     };
 
     return (
-        <div className='ContactForm bg-black text-[#1EC08F]'>
+        <div className='ContactForm bg-black text-[#1EC08F] h-screen'>
 
             <div className='container'>
                 <div className='row'>
                     <div className='col-12 text-center'>
                         <div className='contactForm'>
                             <form className='p-20' id='contact-form' onSubmit={handleSubmit(onSubmit)} noValidate>
-                                <h1 className='text-4xl font-semibold font-mono text-center py-4'> Send Me Your Feedback  </h1>
+                                <h1 className=' xl:text-5xl text-xl amiri font-bold text-center py-4'> Send Me Your Feedback  </h1>
+                                {/* <h1 className='text-4xl text-yellow-300 mt-8 lg:text-left  md:text-7xl kayes  font-bold mb-10 whitespace-nowrap text-center py-4'> Send Me Your Feedback  </h1> */}
                                 <div className='row formRow'>
                                     <div className='col-6 py-4'>
                                         <input
@@ -78,7 +80,7 @@ const ContactMe = () => {
                                                     message: 'Please use 30 characters or less'
                                                 }
                                             })}
-                                            className='form-control formInput'
+                                            className='border-2 border-sky-300 form-control formInput'
                                             placeholder='Name'
                                         ></input>
                                         {errors.name && <span className='errorMessage'>{errors.name.message}</span>}
@@ -91,7 +93,7 @@ const ContactMe = () => {
                                                 required: true,
                                                 pattern: /^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/
                                             })}
-                                            className='form-control formInput'
+                                            className='border-2 border-sky-300 form-control formInput'
                                             placeholder='Email address'
                                         ></input>
                                         {errors.email && (
@@ -112,7 +114,7 @@ const ContactMe = () => {
                                                     message: 'Subject cannot exceed 75 characters'
                                                 }
                                             })}
-                                            className='form-control formInput'
+                                            className='border-2 border-sky-300 form-control formInput'
                                             placeholder='Subject'
                                         ></input>
                                         {errors.subject && (
@@ -129,14 +131,14 @@ const ContactMe = () => {
                                             {...register('message', {
                                                 required: true
                                             })}
-                                            className='form-control formInput'
+                                            className='border-2 border-sky-300 form-control formInput'
                                             placeholder='Message'
                                         ></textarea>
                                         {errors.message && <span className='errorMessage'>Please enter a message</span>}
                                     </div>
                                 </div>
-                                <button className='submit-btn border-2 border-[#1EC08F] px-4 py-2 rounded-lg' type='submit'>
-                                    Submit
+                                <button className='submit-btn border-2 border-[#1EC08F] px-4 py-2 rounded-lg hover:bg-sky-300 hover:text-black hover:font-bold' type='submit'>
+                                    <i class="fa-solid fa-envelope-circle-check pr-2"></i> Submit
                                 </button>
                             </form>
                         </div>

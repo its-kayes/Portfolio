@@ -33,7 +33,7 @@ const Navbar = () => {
                         </ul>
                     </div>
 
-                    <Link to='/' class="btn btn-ghost normal-case text-xl"><button className='border-[#1EC08F] px-4 py-2 rounded-lg'>
+                    <Link to='/' class="normal-case text-2xl pl-4 amiri"><button>
                         Emrul Kayes
                     </button></Link>
                 </div>
