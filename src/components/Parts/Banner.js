@@ -17,7 +17,7 @@ const Banner = () => {
 
                             Also expert in React js as a JavaScript framework. As a backend good at Node.js and Express.js. Also have good knowledge at Mongodb database </p>
                         
-                        <a href="resume.pdf" className='btn' download> Download Resume</a>
+                        <a href="resume.pdf" className='btn border-2 border-sky-300 normal-case' download> Download Resume</a>
                         
                     </div>
                 </div>

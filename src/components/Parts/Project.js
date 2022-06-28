@@ -29,7 +29,7 @@ const Projects = () => {
                                     <img className=' w-full border border-sky-300 rounded-lg' src={project.frontImg} alt="" />
                                     <div className='my-4 flex justify-between'>
                                         <p className='text-xl font-mono font-bold text-sky-400 '> {project.name} </p>
-                                        <p className='py-1 px-4 border-2 border-sky-300 rounded-lg'> More Details <i class="fa-solid fa-caret-right ps-2"></i> </p>
+                                        <a target='blank' href={project.moreDetails} className='py-1 px-4 border-2 border-sky-300 rounded-lg'> More Details <i class="fa-solid fa-caret-right ps-2"></i> </a>
                                     </div>
                                 </div>
 

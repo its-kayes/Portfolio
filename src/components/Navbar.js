@@ -61,7 +61,7 @@ const Navbar = () => {
                     </ul>
                 </div>
                 <div>
-                    <a href="resume.pdf" className='btn' download> Download Resume</a>
+                    <a href="resume.pdf" className='btn border-2 border-sky-300 hover:text-black hover:bg-sky-100 normal-case' download> Download Resume</a>
                 </div>
             </div>
             {/* <p className='text-2xl text-red-500 font-bold text-center'> Under Development </p> */}
