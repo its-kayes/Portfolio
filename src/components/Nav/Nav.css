@@ -5,3 +5,8 @@
     /* sticky: 'top' */
 
 }
+
+.form {
+    background-color: hsl(216 65% 11%/var(--tw-bg-opacity));
+    background-color: hsl(var(--b1)/var(--tw-bg-opacity));
+}

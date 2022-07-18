@@ -5,7 +5,7 @@ const Navbar = () => {
     return (
         <div className='bg-dark  '>
 
-            <div class="navbar bg-dark text-white">
+            <div class="navbar bg-[#11213F] text-[#90AFDD]">
                 <div class="navbar-start">
                     <div class="dropdown">
                         <label tabindex="0" class="btn btn-ghost lg:hidden">
@@ -61,7 +61,7 @@ const Navbar = () => {
                     </ul>
                 </div>
                 <div>
-                    <a href="resume.pdf" className='btn border-2 border-sky-300 hover:text-black hover:bg-sky-100 normal-case' download> Download Resume</a>
+                    <a href="resume.pdf" className='btn border-2 text-[#4AB9A7] border-sky-300 hover:text-black hover:bg-sky-100 normal-case' download> <i> Download Resume </i></a>
                 </div>
             </div>
             {/* <p className='text-2xl text-red-500 font-bold text-center'> Under Development </p> */}

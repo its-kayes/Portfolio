@@ -6,14 +6,14 @@ import Spinier from '../Shared/Spinier';
 const Projects = () => {
 
     let projects = useProjects();
-    if(!projects.length) {
+    if (!projects.length) {
         return <Spinier> </Spinier>
     }
 
-  
+
     return (
 
-        <div className='w-full py-10 bg-black'>
+        <div className='w-full py-10 bg-[#0A182E]'>
 
             <div className='flex justify-center py-20'>
                 <h1 className='text-white text-2xl text-center rounded-2xl font-mono py-2 w-3/6 border-2 border-sky-300'> <i class="fa-solid fa-caret-down px-4"></i> List of project that I hove done <i class="fa-solid fa-caret-down px-4"></i> </h1>

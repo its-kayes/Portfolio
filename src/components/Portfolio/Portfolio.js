@@ -8,8 +8,8 @@ import SocialLinks from '../Parts/SocialLinks';
 
 const Portfolio = () => {
     return (
-        <div className='bg-black'>
-        
+        <div className='bg-[#0A182E]'>
+
             <Banner> </Banner>
 
 
@@ -20,10 +20,10 @@ const Portfolio = () => {
             {/* <Cards> </Cards> */}
 
             <SocialLinks>  </SocialLinks>
-            
+
             <Project> </Project>
 
-            
+
         </div>
     );
 };
