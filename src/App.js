@@ -1,5 +1,6 @@
 import { Route, Routes } from 'react-router-dom';
 import './App.css';
+import AboutMe from './components/about/AboutMe';
 import Navbar from './components/Navbar';
 import About from './components/Parts/About';
 import Activity from './components/Parts/Activity';
@@ -18,7 +19,8 @@ function App() {
         <Route path='/project' element={<Project> </Project>}> </Route>
         <Route path='/projectDetails/:id' element={<ProjectDetails></ProjectDetails>}> </Route>
         <Route path='/activity' element={<Activity></Activity>}> </Route>
-        <Route  path='about' element={<About> </About>}> </Route>
+        <Route path='/about' element={<About> </About>}> </Route>
+        <Route path='/aboutme' element={<AboutMe></AboutMe>}> </Route>
       </Routes>
     </div>
   );
