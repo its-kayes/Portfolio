@@ -28,7 +28,7 @@ const AboutMe = () => {
                                 setEducation(false)
                                 setExperience(false)
                                 setCourse(false)
-                            }} className={`text-lg cursor-pointer hover:font-bold focus:font-bold font-mono px-8 pb-2 my-2 ${overview && 'text-red-500 border-b border-red-400'}`}> <i class="pr-2 fa-solid fa-eye"></i> Overview </button>
+                            }} className={`text-lg cursor-pointer hover:font-bold focus:font-bold   px-8 pb-2 my-2 ${overview && 'text-red-500 border-b border-red-400'}`}> <i class="pr-2 fa-solid fa-eye"></i> Overview </button>
                         </div>
 
                         <div>
@@ -37,7 +37,7 @@ const AboutMe = () => {
                                 setEducation(false)
                                 setExperience(false)
                                 setCourse(true)
-                            }} className={`text-lg cursor-pointer hover:font-bold focus:font-bold font-mono px-8 pb-2 my-2 ${course && 'text-red-500 border-b border-red-400'}`}><i class="pr-2 fa-solid fa-crown"></i> Courses </button>
+                            }} className={`text-lg cursor-pointer hover:font-bold focus:font-bold   px-8 pb-2 my-2 ${course && 'text-red-500 border-b border-red-400'}`}><i class="pr-2 fa-brands fa-leanpub"></i> Bootcamp </button>
                         </div>
 
                         <div>
@@ -46,7 +46,7 @@ const AboutMe = () => {
                                 setEducation(true)
                                 setExperience(false)
                                 setCourse(false)
-                            }} className={`text-lg cursor-pointer hover:font-bold focus:font-bold font-mono px-8 pb-2 my-2 ${education && 'text-red-500 border-b border-red-400'}`}><i class="pr-2 fa-solid fa-graduation-cap"></i> Education </button>
+                            }} className={`text-lg cursor-pointer hover:font-bold focus:font-bold   px-8 pb-2 my-2 ${education && 'text-red-500 border-b border-red-400'}`}><i class="pr-2 fa-solid fa-graduation-cap"></i> Education </button>
                         </div>
                        
                         <div>
@@ -55,7 +55,7 @@ const AboutMe = () => {
                                 setEducation(false)
                                 setExperience(true)
                                 setCourse(false)
-                            }} className={`text-lg cursor-pointer hover:font-bold focus:font-bold font-mono px-8 pb-2 my-2 ${experience && 'text-red-500 border-b border-red-400'}`}><i class="pr-2 fa-solid fa-crown"></i> Experience </button>
+                            }} className={`text-lg cursor-pointer hover:font-bold focus:font-bold   px-8 pb-2 my-2 ${experience && 'text-red-500 border-b border-red-400'}`}><i class="pr-2 fa-solid fa-crown"></i> Experience </button>
                         </div>
 
                     </div>

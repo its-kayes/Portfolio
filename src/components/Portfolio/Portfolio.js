@@ -1,4 +1,6 @@
 import React from 'react';
+import AboutMe from '../about/AboutMe';
+import ContactsLink from '../contactsLink/ContactsLink';
 import Banner from '../Parts/Banner';
 import Cards from '../Parts/Cards';
 import ContactMe from '../Parts/ContactMe';
@@ -11,17 +13,20 @@ const Portfolio = () => {
         <div className='bg-[#0A182E]'>
 
             <Banner> </Banner>
+            <ContactsLink />
 
 
-            {/* <ContactMe> </ContactMe> */}
 
             {/* <Progress> </Progress> */}
 
             {/* <Cards> </Cards> */}
+            {/* <AboutMe> </AboutMe>
+            <ContactMe> </ContactMe> */}
 
-            <SocialLinks>  </SocialLinks>
 
-            <Project> </Project>
+            {/* <SocialLinks>  </SocialLinks>
+
+            <Project> </Project> */}
 
 
         </div>
