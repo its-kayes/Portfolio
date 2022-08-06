@@ -59,7 +59,7 @@ const ContactMe = () => {
     };
 
     return (
-        <div className='bg-[#0A182E] text-[#1EC08F] flex justify-evenly items-center p-20'>
+        <div className='bg-[#0A182E] text-[#1EC08F] flex justify-evenly h-screen items-center p-20'>
             <div className=''>
                 <p className=' mb-14 text-6xl font-bold '> <i> Contact Me </i> </p>
                 <div className='flex text-xl text-[#8892B0] items-center mb-6'>

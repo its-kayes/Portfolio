@@ -13,15 +13,16 @@ const Portfolio = () => {
         <div className='bg-[#0A182E]'>
 
             <Banner> </Banner>
-            <ContactsLink />
-
-
 
             {/* <Progress> </Progress> */}
 
             {/* <Cards> </Cards> */}
-            {/* <AboutMe> </AboutMe>
-            <ContactMe> </ContactMe> */}
+
+            <AboutMe> </AboutMe>
+            
+            <ContactsLink />
+
+            <ContactMe> </ContactMe> 
 
 
             {/* <SocialLinks>  </SocialLinks>

@@ -13,8 +13,8 @@ const Navbar = () => {
                         </label>
                         <ul tabindex="0" class="menu menu-compact dropdown-content mt-3 p-2 shad
                         ow bg-base-100 rounded-box w-52">
-                            <li> <Link to='/'> Home </Link> </li>
-                            <li> <Link to='/project'> Projects </Link> </li>
+                            <li> <Link to='/'> <i> Home</i> </Link> </li>
+                            <li> <Link to='/project'> <i> Projects </i></Link> </li>
 
                             {/* <li tabindex="0">
                             <a>
@@ -27,21 +27,21 @@ const Navbar = () => {
                             </ul>
                         </li> */}
 
-                            <li> <Link to='/contact'> Contact Me  </Link> </li>
-                            <li> <Link to='/activity'> Activity </Link> </li>
-                            <li> <Link to='/about'> About Me </Link> </li>
+                            <li> <Link to='/contact'> <i> Contact Me </i> </Link> </li>
+                            {/* <li> <Link to='/activity'> Activity </Link> </li> */}
+                            <li> <Link to='/about'> <i> About Me </i></Link> </li>
                         </ul>
                     </div>
 
-                    <Link to='/' class="normal-case text-2xl pl-4 amiri"><button>
-                        Emrul Kayes
+                    <Link to='/' class="normal-case text-2xl pl-4 amiri"><button> <i>
+                        Emrul Kayes</i>
                     </button></Link>
                 </div>
                 <div class="navbar-center hidden lg:flex">
                     <ul class="menu menu-horizontal p-0">
-                        <li> <Link to='/'> Home </Link> </li>
-                        {/* <li><a>Projects</a></li> */}
-                        <li> <Link to='/project'> Projects </Link> </li>
+                        <li> <Link to='/'> <i> Home</i> </Link> </li>
+                        {/* <li><a> <i>Projects</i></a></li> */}
+                        <li> <Link to='/project'> <i> Projects </i></Link> </li>
 
                         {/* <li tabindex="0">
                         <a>
@@ -53,11 +53,11 @@ const Navbar = () => {
                             <li><a>Submenu 2</a></li>
                         </ul>
                     </li> */}
-                        {/* <li><a>Contact Me</a></li> */}
-                        <li> <Link to='/contact'> Contact Me  </Link> </li>
-                        <li> <Link to='/activity'> Activity </Link> </li>
-                        <li> <Link to='/about'> About Me </Link> </li>
-                        {/* <li><a>Activity</a></li> */}
+                        {/* <li><a> <i>Contact Me</i></a></li> */}
+                        <li> <Link to='/contact'> <i> Contact Me  </i></Link> </li>
+                        {/* <li> <Link to='/activity'> <i> Activity </i></Link> </li> */}
+                        <li> <Link to='/aboutme'> <i> About Me </i></Link> </li>
+                        {/* <li><a> <i>Activity</a></li> */}
                     </ul>
                 </div>
                 <div>
